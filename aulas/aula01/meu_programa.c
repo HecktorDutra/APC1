@@ -7,13 +7,7 @@ int main() {
   printf("entre com a nota1: ");
   scanf("%f", &nota1);
 
-  printf("entre com a nota2: ");
-  scanf("%f", &nota2);
-
-  float media = 0.4*nota1 + 0.6*nota2;
-
-  printf("a média final é %.1f\n", media);
-
+  printf("entre com a nota2: "); 
   if (media >=5.0) {
     printf("passei!!\n");
   } else {

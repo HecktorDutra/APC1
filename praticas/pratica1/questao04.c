@@ -4,7 +4,11 @@
 #include <stdio.h>
 
 int main() {
-  float preco_inicial = 100.0f;
+  float preco_inicial = 0.0f;
+  
+  printf("Digite o Valor do Produto: ");
+  scanf("%f", &preco_inicial);
+  
   
   const float ICMS = 0.17f;
   const float COFINS = 0.076f;
@@ -16,11 +20,11 @@ int main() {
   
   float preco_final = (1+ ICMS + COFINS + PIS_PASEP) * preco_inicial;
 
-  printf("preco inicial = %.2f\n", preco_inicial);
+  printf("Preço inicial = %.2f\n", preco_inicial);
   printf("Valor ICMS = %.2f\n", valor_icms);
   printf("Valor COFINS = %.2f\n", valor_cofins);
   printf("PIS_PASEP = %.2f\n", valor_pis_pasep); 
-  printf("preco final = %.2f\n", preco_final);
+  printf("Preço final = %.2f\n", preco_final);
 
   
   return 0;

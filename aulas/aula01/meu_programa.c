@@ -8,7 +8,7 @@ int main() {
   scanf("%f", &nota1);
 
   printf("entre com a nota2: "); 
-  if (media >=5.0) {
+  if (media>= 5.0) {
     printf("passei!!\n");
   } else {
     printf("vamos de p3\n");

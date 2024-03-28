@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 int main() {
- int GB = 0.0;
+long int gb;
 
   printf("Digite o Valor de GB: \n");
-  scanf("%i", &GB);
+  scanf("%li", &gb);
 
-  long int resultado = GB * 1024 * 1024 * 1024;
+  long int resultado = gb * 1024 * 1024 * 1024;
   printf("Valor em bytes = %li", resultado);
 
 return 0;

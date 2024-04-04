@@ -6,10 +6,7 @@ int main () {
 int distancia;
 
 printf("Digite a distancia: ");
-scanf("%i", &distancia);
-  
-double 
-  
+scanf("%i", &distancia); 
   
 return 0;
 }

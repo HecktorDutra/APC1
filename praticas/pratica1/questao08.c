@@ -4,15 +4,15 @@ int main() {
 
 int segundos;
   
-printf("Digite o tempo em segundos: ");
+printf("Digite o tempo em segundos: \n");
 scanf("%i", &segundos);
 
 int horas = segundos / 3600;
-int minutos = horas / 60;
-int segundoss = minutos / 60;
-int resto = 
+int resto = segundos % 3600;
+int minutos = resto / 60;
+resto = resto % 60;
 
-printf("O tempo é de %i horas %i minutos %i segundos", horas, minutos, segundoss);
+printf("O tempo é de %i horas %i minutos %i segundos\n", horas, minutos, resto);
 
   
 return 0;

@@ -15,4 +15,4 @@ int numero;
   printf("%i Milhares %i Centenas %i Dezenas %i Unidades\n", milhar, centena, dezena, unidade);
   
 return 0;
-}
+} 

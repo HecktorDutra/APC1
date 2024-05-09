@@ -8,6 +8,7 @@ int main() {
   int deu_certo = scanf("%f", &nota1);
 
   int nota1_eh_valida = nota1 >= 0.0f && nota1 <= 10.0f;
+  
   if (nota1_eh_valida) {
 
     printf("Entre com a segunda nota: \n");
